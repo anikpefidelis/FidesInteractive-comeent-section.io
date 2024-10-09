@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+    background-color:whitesmoke;
+    margin-top: 20px;
+    align-items: center;
+    position: relative; top:0px;left: 0px; margin-left: 0px; margin-left: 205px;
+}
+
+
+.flex{
+    display: block;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.img{
+    margin: auto;
+    text-align: center;
+}
+
+.comment-box,comment-list{
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px #0002;
+}
+
+
+.comment-session{
+    width:650px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.comment-list{
+    width: 89%;
+    height: 70%;
+    margin-bottom: 1%;
+    background:white;
+    padding-right: 8px;
+}
+
+.comment-list .user{
+    display: flex;
+    padding: 8px;
+}
+
+
+.comment-box .user{
+    height: 38px;
+    width: 38px;
+    border-radius: 60px;
+}
+
+
+
+
+comment-list .name{
+    text-transform: uppercase;
+    font-weight: 1000;
+}
+
+
+
+.reply{
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    color: #7777;
+    gap: 5px;
+}
+
+.icon:hover{
+    color: #000;
+    cursor: pointer;
+}
+
+post-comment .comment{
+    padding: 0 0 15px 58px;
+}
+
+
+.comment-box{
+    padding: 100px;
+    overflow: hidden;
+}
+
+.comment-box .user{
+    display: flex;
+    width:max-content;
+}
+
+
+.comment-box .image{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.comment-box textarea{
+    background: white;
+    width: webkit-fill-available;
+    height: 152px;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 0 0 5px;
+    display: flex;
+}
+
+
+
+comment-box textarea :focus{
+    outline-color: white;
+}
+
+.commment-box .comment-submit{
+    float: right;
+    text-align: center;
+    padding: 6px 14px;
+    border: none;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.comment-box .comment-submit hover{
+    background: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
